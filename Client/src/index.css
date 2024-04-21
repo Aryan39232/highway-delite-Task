@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+}
+/* variables for color  */
+:root {
+  --btn-color-1: #1b47e4;
+  --text-color-1: #003583;
+  --white-color: #fff;
+  --bg-color-1: #032088;
+  --text-color-2: #b3ffb5;
+  --bg-color-2: #f5f9fe;
+  --text-hover: #ebeffd;
+  --text-color-3: #1b47e4;
+  --text-color-4: #010e39;
+  --text-color-5: #10ba91;
+  --border-color-1: #dce7f5;
+  --btn-color-2: #0048c6;
+}
+a {
+  text-decoration: none;
+}

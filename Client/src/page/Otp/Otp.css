@@ -1,0 +1,305 @@
+.Otp-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+}
+
+.login-content {
+  max-width: 460px;
+  width: 100%;
+}
+
+.login-content .login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-header .login-logo {
+  display: block;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40vw;
+}
+
+.login-logo img {
+  max-width: 80%;
+  height: auto;
+  width: 60%;
+}
+.round-icon-bg {
+  background-color: #3fa9f5;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.round-icon-bg i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.login-form h2 {
+  text-align: center;
+}
+.login-form .form-group {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 25px;
+}
+
+.login-form .form-group .form-control {
+  min-height: 50px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #8385bf;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.login-form .form-group .field-icon {
+  position: absolute;
+  z-index: 1;
+  right: 19px;
+  bottom: 18px;
+  font-size: 14px;
+  color: #bebebe;
+}
+
+.login-form .form-group .checkbox {
+  padding-left: 5px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+.login-form .form-group .text-link {
+  color: #231f20;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.login-form .form-group .text-link:hover {
+  color: #1e55bb;
+}
+.round-btn {
+  background-color: #1be4d3;
+  font-size: 20px;
+  color: #ffffff;
+  border: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 10px 50px;
+  text-align: center;
+  margin: 0px auto;
+  cursor: pointer;
+}
+.fill-btn {
+  background-color: #1be4d3;
+  font-size: 20px;
+  color: #ffffff;
+  border: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 10px 50px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+.round-btn:hover,
+.round-btn.enabled:hover,
+.fill-btn:hover {
+  background-color: #1e55bb;
+}
+
+.round-btn.disabled {
+  background-color: rgb(202, 201, 201);
+  cursor: not-allowed;
+}
+
+.round-btn.enabled {
+  background-color: #1be4d3;
+}
+
+.span-space {
+  margin-left: 2%;
+}
+
+.anchor-blue {
+  color: #1e55bb;
+}
+
+.centerize-everything {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.image-div {
+  display: flex;
+  align-items: center;
+}
+
+.continue-with-google-img {
+  margin-left: 10px;
+  width: 40px;
+  height: 37.33px;
+  fill: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.continue-with-google-span {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.align-logo-G-I {
+  justify-content: center;
+}
+
+.login-content .login-footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.login-content .login-footer p {
+  color: #231f20;
+  font-size: 15px;
+}
+
+.insta-icon {
+  font-size: 40px;
+  color: fuchsia;
+  vertical-align: middle;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.disable-google {
+  filter: grayscale(100%);
+  cursor: not-allowed;
+}
+
+.insta-icon.disable {
+  color: rgb(202, 201, 201);
+  cursor: not-allowed;
+}
+
+.loader-container-signup {
+  width: 181.33px;
+  margin: auto;
+}
+.loader-container-otp {
+  width: 216px;
+  margin: auto;
+}
+.loader-container-login {
+  width: 172.67px;
+  margin: auto;
+}
+.loader-container-fgtbtn {
+  width: 153.33px;
+  margin: auto;
+}
+.loader-container-fgt-pwd-otp {
+  width: 213.33px;
+  margin: auto;
+}
+.loader-container-reset {
+  width: 167.27px;
+  margin: auto;
+}
+
+.login-content .login-footer p .inline-text-link {
+  color: #231f20;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+p .inline-text-link:hover {
+  color: #1e55bb;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .fill-btn,
+  .round-btn {
+    font-size: 18px;
+    padding: 6px 40px;
+  }
+  .loader-container-signup {
+    width: 153.33px;
+  }
+  .loader-container-otp {
+    width: 186.67px;
+  }
+  .loader-container-login {
+    width: 147.33px;
+  }
+  .loader-container-fgtbtn {
+    width: 126.67px;
+  }
+  .loader-container-fgt-pwd-otp {
+    width: 181.21px;
+  }
+  .loader-container-reset {
+    width: 141.21px;
+  }
+  .login-logo img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 319px) {
+  .login-content .login-header {
+    margin-bottom: 20px;
+  }
+  .login-header .login-logo {
+    margin-bottom: 25px;
+  }
+  .login-form h2 {
+    font-size: 18px;
+  }
+  .round-icon-bg {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+  }
+  .fill-btn,
+  .round-btn {
+    font-size: 15px;
+    padding: 6px 40px;
+  }
+  .login-content .login-footer p,
+  .login-content .login-footer p .inline-text-link,
+  .login-form .form-group .text-link {
+    font-size: 12px;
+  }
+  .loader-container-signup {
+    width: 142.67px;
+  }
+  .loader-container-otp {
+    width: 169.33px;
+  }
+  .loader-container-login {
+    width: 136.67px;
+  }
+  .loader-container-fgtbtn {
+    width: 120.67px;
+  }
+  .loader-container-fgt-pwd-otp {
+    width: 164.24px;
+  }
+  .loader-container-reset {
+    width: 130.3px;
+  }
+}

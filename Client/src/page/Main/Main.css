@@ -1,0 +1,27 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image-box {
+  display: flex;
+  justify-content: space-between; /* Change from space-around to space-between */
+  margin-top: 50px;
+}
+
+.image-box img {
+  width: 70%;
+  max-width: 500px; /* Adjust the size as needed */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-box img:hover {
+  transform: scale(1.1);
+}
+
+/* Style for the login and signup pages */
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}

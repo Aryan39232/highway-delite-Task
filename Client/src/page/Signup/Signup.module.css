@@ -1,0 +1,107 @@
+.signup_container {
+  /* background-image: url("../../IMG/3099609.jpg"); */
+  background-color: rgb(80, 57, 57);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.signup_box {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+.signup_img_box {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.signup_form_box {
+  margin-top: 40px;
+}
+.signup_form_box > form {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.signup_form_box > form input {
+  color: var(--text-color-1);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid var(--white-color);
+
+  line-height: normal;
+}
+
+/* Style the input element on focus */
+.signup_form_box > form input:focus {
+  border: 1px solid var(--btn-color-1); /* Change border color on focus */
+  outline: none; /* Remove default focus outline (optional) */
+}
+
+/* Style the placeholder text */
+.signup_form_box > form input::placeholder {
+  color: var(--text-color-1); /* Set the placeholder text color */
+}
+
+.signup_form_box > form > .signup_btn {
+  width: 100%;
+}
+.signup_form_box > form > .signup_btn > button {
+  width: 100%;
+  background-color: var(--btn-color-1);
+  color: var(--white-color);
+  border-radius: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  padding: 10px 15px;
+  line-height: normal;
+  border: none;
+  margin-top: 30px;
+}
+
+.input_group {
+  position: relative;
+}
+.input_group_password_icon {
+  position: absolute;
+  right: 10px;
+  top: 50%; /* Center the icon vertically */
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+/* media queries for mobile screen */
+
+@media screen and (min-width: 270px) and (max-width: 480px) {
+  .signup_box {
+    width: 95%;
+  }
+  .signup_container {
+    width: 100%;
+  }
+  .signup_form_box > form > input {
+    font-size: 15px;
+  }
+}
+
+/* media queries for tabs screen */
+
+@media screen and (min-width: 480px) and (max-width: 620px) {
+}
+
+@media screen and (min-width: 480px) and (max-width: 867px) {
+}
